@@ -1,4 +1,8 @@
-module Data.Dynamic where
+module Data.Dynamic
+  ( Dynamic
+  , toDynamic
+  , fromDynamic
+  ) where
 
 import Data.Maybe (Maybe(..))
 import Data.Typeable (class Typeable, TypeRep, typeOf)

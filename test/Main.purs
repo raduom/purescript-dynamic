@@ -1,7 +1,7 @@
 module Test.Main where
 
 import Control.Monad.Eff (Eff)
-import Data.List (List(..), singleton)
+import Data.List (List(Nil))
 import Data.Maybe (Maybe(..))
 import Data.Typeable (class Typeable, TyCon(..), TypeRep(..))
 import Data.Dynamic (fromDynamic, toDynamic)
