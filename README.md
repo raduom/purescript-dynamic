@@ -5,6 +5,6 @@
 ## Installation
 
 ```
-bower install purescript-functions
+bower install purescript-dynamic
 
 ```
