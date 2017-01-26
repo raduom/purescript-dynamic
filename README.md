@@ -11,5 +11,8 @@ Operations for injecting values of arbitrary type into a dynamically typed value
 
 ```
 bower install purescript-dynamic
-
 ```
+
+## Documentation
+
+Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-dynamic/0.9.1).
