@@ -10,7 +10,7 @@
     "purescript-prelude": "^2.1.0",
     "purescript-console": "^2.0.0",
     "purescript-functions": "^2.0.0",
-    "purescript-typeable": "git://github.com/raduom/purescript-typeable.git#update_versions"
+    "purescript-typeable": "git://github.com/raduom/purescript-typeable.git#typeof_should_use_proxy"
   },
   "devDependencies": {
     "purescript-psci-support": "^2.0.0",

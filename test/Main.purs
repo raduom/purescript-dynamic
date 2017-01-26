@@ -17,20 +17,7 @@ data T = A String
 newtype C = C Int
 
 instance someTypeable :: Typeable T where
-  typeOf (A _) =
-    TypeRep
-      (TyCon { tyConModule: "Test.Main", tyConName: "A" })
-      (singleton
-        (TypeRep
-          (TyCon { tyConModule: "Prelude", tyConName: "String#" } )
-          Nil))
-  typeOf (B _) =
-    TypeRep
-      (TyCon { tyConModule: "Test.Main", tyConName: "B" })
-      (singleton
-        (TypeRep
-          (TyCon { tyConModule: "Prelude", tyConName: "Int#" } )
-          Nil))
+  typeOf _ = TypeRep (TyCon { tyConModule: "Test.Main", tyConName: "T" }) Nil
 
 instance someShow :: Show T where
   show (A s) = "A " <> show s
@@ -42,7 +29,7 @@ instance someEq :: Eq T where
   eq _ _ = false
 
 instance intTypeable :: Typeable C where
-  typeOf (C _) = TypeRep (TyCon { tyConModule: "Test.Main", tyConName: "C" }) Nil
+  typeOf _ = TypeRep (TyCon { tyConModule: "Test.Main", tyConName: "C" }) Nil
 
 instance intShow :: Show C where
   show (C n) = "C " <> show n
