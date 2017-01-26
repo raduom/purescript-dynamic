@@ -1,6 +1,12 @@
 {
   "name": "purescript-dynamic",
   "license": "MIT",
+  "homepage": "https://github.com/raduom/purescript-dynamic",
+  "description": "The Dynamic interface provides basic support for dynamic types.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raduom/purescript-dynamic.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
