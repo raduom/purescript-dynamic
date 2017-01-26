@@ -8,9 +8,12 @@
   ],
   "dependencies": {
     "purescript-prelude": "^2.1.0",
-    "purescript-console": "^2.0.0"
+    "purescript-console": "^2.0.0",
+    "purescript-functions": "^2.0.0",
+    "purescript-typeable": "git://github.com/raduom/purescript-typeable.git#update_versions"
   },
   "devDependencies": {
-    "purescript-psci-support": "^2.0.0"
+    "purescript-psci-support": "^2.0.0",
+    "purescript-spec": "^0.11.0"
   }
 }
