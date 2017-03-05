@@ -10,7 +10,7 @@ import Prelude (class Show, otherwise, show, (<>), (==))
 import Type.Proxy (Proxy(..))
 import Unsafe.Coerce (unsafeCoerce)
 
-foreign import data Any :: Type
+foreign import data Any :: *
 
 -- | The type used to encode dynamicaly typed objects
 data Dynamic = Dynamic TypeRep Any
