@@ -1,5 +1,6 @@
 module Data.Dynamic
-  ( Dynamic
+  ( Dynamic(..)
+  , Any
   , toDynamic
   , fromDynamic
   ) where
